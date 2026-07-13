@@ -1,0 +1,56 @@
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\Axes
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\Axes\0
+    FFAttributes    REG_BINARY    0A00000000010000
+    Attributes    REG_BINARY    0181000001003000
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\Axes\1
+    FFAttributes    REG_BINARY    0A00000000010000
+    Attributes    REG_BINARY    0181000001003100
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\OEMForceFeedback
+    Attributes    REG_BINARY    00000000E8030000E8030000
+    CLSID    REG_SZ    {0AB5665A-4549-4FD0-A952-5A2B9699BDA8}
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\OEMForceFeedback\Effects
+    (Default)    REG_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\OEMForceFeedback\Effects\{13541C20-8E33-11D0-9AD0-00A0C9A06E35}
+    (Default)    REG_SZ    Constant
+    Attributes    REG_BINARY    0000000001860000ED030000ED03000030000000
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\OEMForceFeedback\Effects\{13541C21-8E33-11D0-9AD0-00A0C9A06E35}
+    (Default)    REG_SZ    Ramp Force
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\OEMForceFeedback\Effects\{13541C22-8E33-11D0-9AD0-00A0C9A06E35}
+    (Default)    REG_SZ    Square Wave
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\OEMForceFeedback\Effects\{13541C23-8E33-11D0-9AD0-00A0C9A06E35}
+    (Default)    REG_SZ    Sine Wave
+    Attributes    REG_BINARY    0300000003860000EF030000EF03000030000000
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\OEMForceFeedback\Effects\{13541C24-8E33-11D0-9AD0-00A0C9A06E35}
+    (Default)    REG_SZ    Triangle Wave
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\OEMForceFeedback\Effects\{13541C25-8E33-11D0-9AD0-00A0C9A06E35}
+    (Default)    REG_SZ    Sawtooth Up Wave
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\OEMForceFeedback\Effects\{13541C26-8E33-11D0-9AD0-00A0C9A06E35}
+    (Default)    REG_SZ    Sawtooth Down Wave
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\OEMForceFeedback\Effects\{13541C27-8E33-11D0-9AD0-00A0C9A06E35}
+    (Default)    REG_SZ    Spring
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\OEMForceFeedback\Effects\{13541C28-8E33-11D0-9AD0-00A0C9A06E35}
+    (Default)    REG_SZ    Damper
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\OEMForceFeedback\Effects\{13541C29-8E33-11D0-9AD0-00A0C9A06E35}
+    (Default)    REG_SZ    Inertia
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\OEMForceFeedback\Effects\{13541C2A-8E33-11D0-9AD0-00A0C9A06E35}
+    (Default)    REG_SZ    Friction
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_0079&PID_0006\OEMForceFeedback\Effects\{13541C2B-8E33-11D0-9AD0-00A0C9A06E35}
+    (Default)    REG_SZ    CustomForce
+

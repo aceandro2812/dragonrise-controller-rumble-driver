@@ -1,0 +1,5454 @@
+{
+  "path": "C:\\WINDOWS\\GenericFFBDriver\\GenericFFBDriver32.dll",
+  "machine": "x86",
+  "image_base": 268435456,
+  "exports": [
+    {
+      "ordinal": 1,
+      "name": "DllCanUnloadNow",
+      "rva": 6304,
+      "va": 268441760
+    },
+    {
+      "ordinal": 2,
+      "name": "DllGetClassObject",
+      "rva": 6208,
+      "va": 268441664
+    },
+    {
+      "ordinal": 3,
+      "name": "DllRegisterServer",
+      "rva": 6320,
+      "va": 268441776
+    },
+    {
+      "ordinal": 4,
+      "name": "DllUnregisterServer",
+      "rva": 6416,
+      "va": 268441872
+    },
+    {
+      "ordinal": 5,
+      "name": "RegisterVibrationDriver",
+      "rva": 8368,
+      "va": 268443824
+    }
+  ],
+  "imports": [
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CloseHandle",
+      "iat": 268627996
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetProcAddress",
+      "iat": 268628000
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetModuleHandleW",
+      "iat": 268628004
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetSystemDirectoryA",
+      "iat": 268628008
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateFileW",
+      "iat": 268628012
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetTickCount",
+      "iat": 268628016
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetLastError",
+      "iat": 268628020
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetModuleHandleA",
+      "iat": 268628024
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "WaitForSingleObject",
+      "iat": 268628028
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetFullPathNameA",
+      "iat": 268628032
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCurrentProcess",
+      "iat": 268628036
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateProcessA",
+      "iat": 268628040
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetModuleFileNameA",
+      "iat": 268628044
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "UnhandledExceptionFilter",
+      "iat": 268628048
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetUnhandledExceptionFilter",
+      "iat": 268628052
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "TerminateProcess",
+      "iat": 268628056
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "IsProcessorFeaturePresent",
+      "iat": 268628060
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "IsDebuggerPresent",
+      "iat": 268628064
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetStartupInfoW",
+      "iat": 268628068
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "QueryPerformanceCounter",
+      "iat": 268628072
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCurrentProcessId",
+      "iat": 268628076
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCurrentThreadId",
+      "iat": 268628080
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetSystemTimeAsFileTime",
+      "iat": 268628084
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "InitializeSListHead",
+      "iat": 268628088
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "EnterCriticalSection",
+      "iat": 268628092
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LeaveCriticalSection",
+      "iat": 268628096
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "TryEnterCriticalSection",
+      "iat": 268628100
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "DeleteCriticalSection",
+      "iat": 268628104
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "DuplicateHandle",
+      "iat": 268628108
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "WaitForSingleObjectEx",
+      "iat": 268628112
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "Sleep",
+      "iat": 268628116
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCurrentThread",
+      "iat": 268628120
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetExitCodeThread",
+      "iat": 268628124
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetLastError",
+      "iat": 268628128
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "InitializeCriticalSectionAndSpinCount",
+      "iat": 268628132
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateEventW",
+      "iat": 268628136
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "TlsAlloc",
+      "iat": 268628140
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "TlsGetValue",
+      "iat": 268628144
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "TlsSetValue",
+      "iat": 268628148
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "TlsFree",
+      "iat": 268628152
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "WideCharToMultiByte",
+      "iat": 268628156
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "EncodePointer",
+      "iat": 268628160
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "RaiseException",
+      "iat": 268628164
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "InterlockedPushEntrySList",
+      "iat": 268628168
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "InterlockedFlushSList",
+      "iat": 268628172
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "RtlUnwind",
+      "iat": 268628176
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FreeLibrary",
+      "iat": 268628180
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LoadLibraryExW",
+      "iat": 268628184
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "ExitProcess",
+      "iat": 268628188
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetModuleHandleExW",
+      "iat": 268628192
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetModuleFileNameW",
+      "iat": 268628196
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "MultiByteToWideChar",
+      "iat": 268628200
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapAlloc",
+      "iat": 268628204
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapFree",
+      "iat": 268628208
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateThread",
+      "iat": 268628212
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "ExitThread",
+      "iat": 268628216
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FreeLibraryAndExitThread",
+      "iat": 268628220
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetACP",
+      "iat": 268628224
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetStdHandle",
+      "iat": 268628228
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetFileType",
+      "iat": 268628232
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LCMapStringW",
+      "iat": 268628236
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FindClose",
+      "iat": 268628240
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FindFirstFileExA",
+      "iat": 268628244
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FindNextFileA",
+      "iat": 268628248
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "IsValidCodePage",
+      "iat": 268628252
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetOEMCP",
+      "iat": 268628256
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCPInfo",
+      "iat": 268628260
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCommandLineA",
+      "iat": 268628264
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetCommandLineW",
+      "iat": 268628268
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetEnvironmentStringsW",
+      "iat": 268628272
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FreeEnvironmentStringsW",
+      "iat": 268628276
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetProcessHeap",
+      "iat": 268628280
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetStringTypeW",
+      "iat": 268628284
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetStdHandle",
+      "iat": 268628288
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "FlushFileBuffers",
+      "iat": 268628292
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "WriteFile",
+      "iat": 268628296
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetConsoleCP",
+      "iat": 268628300
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetConsoleMode",
+      "iat": 268628304
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapSize",
+      "iat": 268628308
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "HeapReAlloc",
+      "iat": 268628312
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetFilePointerEx",
+      "iat": 268628316
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "WriteConsoleW",
+      "iat": 268628320
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "DecodePointer",
+      "iat": 268628324
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateTimerQueue",
+      "iat": 268628328
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetEvent",
+      "iat": 268628332
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SignalObjectAndWait",
+      "iat": 268628336
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SwitchToThread",
+      "iat": 268628340
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetThreadPriority",
+      "iat": 268628344
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetThreadPriority",
+      "iat": 268628348
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetLogicalProcessorInformation",
+      "iat": 268628352
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "CreateTimerQueueTimer",
+      "iat": 268628356
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "ChangeTimerQueueTimer",
+      "iat": 268628360
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "DeleteTimerQueueTimer",
+      "iat": 268628364
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetNumaHighestNodeNumber",
+      "iat": 268628368
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetProcessAffinityMask",
+      "iat": 268628372
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "SetThreadAffinityMask",
+      "iat": 268628376
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "RegisterWaitForSingleObject",
+      "iat": 268628380
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "UnregisterWait",
+      "iat": 268628384
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetThreadTimes",
+      "iat": 268628388
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "GetVersionExW",
+      "iat": 268628392
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualAlloc",
+      "iat": 268628396
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualFree",
+      "iat": 268628400
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "VirtualProtect",
+      "iat": 268628404
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "ReleaseSemaphore",
+      "iat": 268628408
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "InterlockedPopEntrySList",
+      "iat": 268628412
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "QueryDepthSList",
+      "iat": 268628416
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "UnregisterWaitEx",
+      "iat": 268628420
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "name": "LoadLibraryW",
+      "iat": 268628424
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegCloseKey",
+      "iat": 268627968
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegDeleteKeyA",
+      "iat": 268627972
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegCreateKeyExA",
+      "iat": 268627976
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "name": "RegSetValueExA",
+      "iat": 268627980
+    },
+    {
+      "dll": "HID.DLL",
+      "name": "HidD_SetOutputReport",
+      "iat": 268627988
+    }
+  ],
+  "import_xrefs": {
+    "KERNEL32.dll!InitializeSListHead": [
+      {
+        "va": 268439724,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f078]"
+      },
+      {
+        "va": 268451916,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f078]"
+      },
+      {
+        "va": 268549167,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f078]"
+      },
+      {
+        "va": 268549180,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f078]"
+      },
+      {
+        "va": 268549193,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f078]"
+      },
+      {
+        "va": 268549206,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f078]"
+      },
+      {
+        "va": 268580433,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f078]"
+      },
+      {
+        "va": 268593805,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f078]"
+      },
+      {
+        "va": 268593815,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f078]"
+      }
+    ],
+    "ADVAPI32.dll!RegCreateKeyExA": [
+      {
+        "va": 268439873,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f008]"
+      },
+      {
+        "va": 268440003,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f008]"
+      }
+    ],
+    "ADVAPI32.dll!RegSetValueExA": [
+      {
+        "va": 268439925,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f00c]"
+      },
+      {
+        "va": 268440038,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f00c]"
+      }
+    ],
+    "ADVAPI32.dll!RegCloseKey": [
+      {
+        "va": 268439936,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f000]"
+      },
+      {
+        "va": 268440049,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f000]"
+      }
+    ],
+    "ADVAPI32.dll!RegDeleteKeyA": [
+      {
+        "va": 268440608,
+        "mnemonic": "mov",
+        "op_str": "esi, dword ptr [0x1002f004]"
+      },
+      {
+        "va": 268441951,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f004]"
+      }
+    ],
+    "KERNEL32.dll!GetModuleFileNameA": [
+      {
+        "va": 268441813,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f04c]"
+      },
+      {
+        "va": 268443981,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f04c]"
+      },
+      {
+        "va": 268480087,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f04c]"
+      }
+    ],
+    "KERNEL32.dll!CreateProcessA": [
+      {
+        "va": 268443742,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f048]"
+      }
+    ],
+    "KERNEL32.dll!GetLastError": [
+      {
+        "va": 268443752,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268443913,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268468395,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268469019,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268483002,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268483147,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268483553,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268485876,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268487619,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268487752,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268491723,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268509668,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268510289,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268510408,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268510739,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268510977,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268511278,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268511920,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268515303,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268516748,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268529961,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268529992,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268530110,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268530245,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268530319,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268530330,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268530386,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268530476,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268530506,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268530517,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268530640,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268530854,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268530994,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268531102,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268531200,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268531712,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268533433,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268534412,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268549352,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268549435,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268549501,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268557122,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268559242,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268580198,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268580233,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268581727,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268581983,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268582029,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268582069,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268601432,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268601480,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268602296,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      },
+      {
+        "va": 268606523,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f034]"
+      }
+    ],
+    "KERNEL32.dll!WaitForSingleObject": [
+      {
+        "va": 268443784,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f03c]"
+      }
+    ],
+    "KERNEL32.dll!CloseHandle": [
+      {
+        "va": 268443793,
+        "mnemonic": "mov",
+        "op_str": "esi, dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268446031,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268456949,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268457046,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268483275,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268483366,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268516738,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268520115,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268530063,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268532718,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268553194,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268553377,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268553588,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268601073,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268601097,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268601573,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268606498,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      },
+      {
+        "va": 268606652,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f01c]"
+      }
+    ],
+    "KERNEL32.dll!GetModuleHandleW": [
+      {
+        "va": 268443869,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f024]"
+      },
+      {
+        "va": 268457572,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f024]"
+      },
+      {
+        "va": 268479793,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f024]"
+      },
+      {
+        "va": 268529870,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f024]"
+      },
+      {
+        "va": 268529944,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f024]"
+      },
+      {
+        "va": 268530457,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f024]"
+      },
+      {
+        "va": 268580216,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f024]"
+      },
+      {
+        "va": 268580264,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f024]"
+      }
+    ],
+    "KERNEL32.dll!GetProcAddress": [
+      {
+        "va": 268443876,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268444133,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457586,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457609,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457632,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457655,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457678,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457701,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457724,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457747,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457770,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457793,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457816,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457839,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457862,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457885,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457908,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457931,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457954,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268457977,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458000,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458023,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458046,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458069,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458092,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458115,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458138,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458161,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458184,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458207,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458230,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458253,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458276,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458299,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458322,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458345,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458368,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458391,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458414,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458437,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458460,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268458483,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268468891,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268479910,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268491601,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268529884,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268529898,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268529951,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268530464,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268580223,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268580271,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268581765,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268581787,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268581810,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268581833,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268581856,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      },
+      {
+        "va": 268581879,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f020]"
+      }
+    ],
+    "KERNEL32.dll!GetCurrentProcess": [
+      {
+        "va": 268443896,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f044]"
+      },
+      {
+        "va": 268450455,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f044]"
+      },
+      {
+        "va": 268456915,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f044]"
+      },
+      {
+        "va": 268456929,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f044]"
+      },
+      {
+        "va": 268478827,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f044]"
+      },
+      {
+        "va": 268479759,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f044]"
+      },
+      {
+        "va": 268530747,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f044]"
+      },
+      {
+        "va": 268533416,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f044]"
+      },
+      {
+        "va": 268559215,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f044]"
+      },
+      {
+        "va": 268559225,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f044]"
+      },
+      {
+        "va": 268601401,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f044]"
+      },
+      {
+        "va": 268601415,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f044]"
+      }
+    ],
+    "KERNEL32.dll!GetModuleHandleA": [
+      {
+        "va": 268443939,
+        "mnemonic": "mov",
+        "op_str": "esi, dword ptr [0x1002f038]"
+      },
+      {
+        "va": 268531632,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f038]"
+      }
+    ],
+    "KERNEL32.dll!GetFullPathNameA": [
+      {
+        "va": 268444037,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f040]"
+      }
+    ],
+    "KERNEL32.dll!GetSystemDirectoryA": [
+      {
+        "va": 268444056,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f028]"
+      }
+    ],
+    "KERNEL32.dll!CreateFileW": [
+      {
+        "va": 268445436,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f02c]"
+      },
+      {
+        "va": 268520087,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f02c]"
+      }
+    ],
+    "KERNEL32.dll!GetTickCount": [
+      {
+        "va": 268445495,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f030]"
+      },
+      {
+        "va": 268446358,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f030]"
+      },
+      {
+        "va": 268459001,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f030]"
+      }
+    ],
+    "HID.DLL!HidD_SetOutputReport": [
+      {
+        "va": 268445757,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f014]"
+      },
+      {
+        "va": 268445769,
+        "mnemonic": "mov",
+        "op_str": "edi, dword ptr [0x1002f014]"
+      },
+      {
+        "va": 268446024,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f014]"
+      }
+    ],
+    "KERNEL32.dll!SetUnhandledExceptionFilter": [
+      {
+        "va": 268450435,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f054]"
+      },
+      {
+        "va": 268451608,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f054]"
+      },
+      {
+        "va": 268478546,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f054]"
+      }
+    ],
+    "KERNEL32.dll!UnhandledExceptionFilter": [
+      {
+        "va": 268450444,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f050]"
+      },
+      {
+        "va": 268451618,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f050]"
+      },
+      {
+        "va": 268478559,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f050]"
+      }
+    ],
+    "KERNEL32.dll!TerminateProcess": [
+      {
+        "va": 268450462,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f058]"
+      },
+      {
+        "va": 268478834,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f058]"
+      },
+      {
+        "va": 268479766,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f058]"
+      }
+    ],
+    "KERNEL32.dll!IsDebuggerPresent": [
+      {
+        "va": 268451577,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f060]"
+      },
+      {
+        "va": 268478536,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f060]"
+      }
+    ],
+    "KERNEL32.dll!GetSystemTimeAsFileTime": [
+      {
+        "va": 268451807,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f074]"
+      },
+      {
+        "va": 268458966,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f074]"
+      }
+    ],
+    "KERNEL32.dll!GetCurrentThreadId": [
+      {
+        "va": 268451822,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f070]"
+      },
+      {
+        "va": 268456020,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f070]"
+      },
+      {
+        "va": 268456048,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f070]"
+      },
+      {
+        "va": 268456069,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f070]"
+      },
+      {
+        "va": 268456194,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f070]"
+      },
+      {
+        "va": 268456258,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f070]"
+      },
+      {
+        "va": 268456342,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f070]"
+      },
+      {
+        "va": 268456669,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f070]"
+      },
+      {
+        "va": 268456961,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f070]"
+      },
+      {
+        "va": 268589364,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f070]"
+      },
+      {
+        "va": 268601374,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f070]"
+      },
+      {
+        "va": 268614766,
+        "mnemonic": "jmp",
+        "op_str": "dword ptr [0x1002f070]"
+      }
+    ],
+    "KERNEL32.dll!GetCurrentProcessId": [
+      {
+        "va": 268451831,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f06c]"
+      }
+    ],
+    "KERNEL32.dll!QueryPerformanceCounter": [
+      {
+        "va": 268451844,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f068]"
+      }
+    ],
+    "KERNEL32.dll!DeleteCriticalSection": [
+      {
+        "va": 268455943,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f088]"
+      },
+      {
+        "va": 268459598,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f088]"
+      },
+      {
+        "va": 268468766,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f088]"
+      },
+      {
+        "va": 268477982,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f088]"
+      },
+      {
+        "va": 268483727,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f088]"
+      },
+      {
+        "va": 268492939,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f088]"
+      },
+      {
+        "va": 268508602,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f088]"
+      },
+      {
+        "va": 268528250,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f088]"
+      }
+    ],
+    "KERNEL32.dll!EnterCriticalSection": [
+      {
+        "va": 268455962,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f07c]"
+      },
+      {
+        "va": 268459635,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f07c]"
+      },
+      {
+        "va": 268478029,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f07c]"
+      },
+      {
+        "va": 268483695,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f07c]"
+      },
+      {
+        "va": 268508806,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f07c]"
+      },
+      {
+        "va": 268528897,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f07c]"
+      }
+    ],
+    "KERNEL32.dll!TryEnterCriticalSection": [
+      {
+        "va": 268456382,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f084]"
+      },
+      {
+        "va": 268456431,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f084]"
+      }
+    ],
+    "KERNEL32.dll!LeaveCriticalSection": [
+      {
+        "va": 268456466,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f080]"
+      },
+      {
+        "va": 268459649,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f080]"
+      },
+      {
+        "va": 268478049,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f080]"
+      },
+      {
+        "va": 268483767,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f080]"
+      },
+      {
+        "va": 268508841,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f080]"
+      },
+      {
+        "va": 268529229,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f080]"
+      }
+    ],
+    "KERNEL32.dll!GetCurrentThread": [
+      {
+        "va": 268456922,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f098]"
+      },
+      {
+        "va": 268531508,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f098]"
+      },
+      {
+        "va": 268533500,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f098]"
+      },
+      {
+        "va": 268573590,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f098]"
+      },
+      {
+        "va": 268573730,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f098]"
+      },
+      {
+        "va": 268575834,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f098]"
+      },
+      {
+        "va": 268601408,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f098]"
+      }
+    ],
+    "KERNEL32.dll!DuplicateHandle": [
+      {
+        "va": 268456936,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f08c]"
+      },
+      {
+        "va": 268559232,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f08c]"
+      },
+      {
+        "va": 268601422,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f08c]"
+      }
+    ],
+    "KERNEL32.dll!WaitForSingleObjectEx": [
+      {
+        "va": 268457003,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f090]"
+      },
+      {
+        "va": 268531273,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f090]"
+      },
+      {
+        "va": 268538110,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f090]"
+      },
+      {
+        "va": 268563122,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f090]"
+      },
+      {
+        "va": 268601044,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f090]"
+      },
+      {
+        "va": 268606853,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f090]"
+      },
+      {
+        "va": 268606880,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f090]"
+      }
+    ],
+    "KERNEL32.dll!GetExitCodeThread": [
+      {
+        "va": 268457021,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f09c]"
+      }
+    ],
+    "KERNEL32.dll!Sleep": [
+      {
+        "va": 268457117,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f094]"
+      },
+      {
+        "va": 268531071,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f094]"
+      }
+    ],
+    "KERNEL32.dll!CreateEventW": [
+      {
+        "va": 268458661,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0a8]"
+      }
+    ],
+    "KERNEL32.dll!InitializeCriticalSectionAndSpinCount": [
+      {
+        "va": 268459086,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0a4]"
+      },
+      {
+        "va": 268469376,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0a4]"
+      },
+      {
+        "va": 268492206,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0a4]"
+      }
+    ],
+    "KERNEL32.dll!EncodePointer": [
+      {
+        "va": 268461569,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c0]"
+      },
+      {
+        "va": 268531484,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c0]"
+      },
+      {
+        "va": 268582109,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c0]"
+      },
+      {
+        "va": 268582169,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c0]"
+      },
+      {
+        "va": 268582229,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c0]"
+      },
+      {
+        "va": 268582290,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c0]"
+      },
+      {
+        "va": 268582356,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c0]"
+      },
+      {
+        "va": 268582412,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c0]"
+      },
+      {
+        "va": 268615326,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c0]"
+      }
+    ],
+    "KERNEL32.dll!RaiseException": [
+      {
+        "va": 268465383,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c4]"
+      },
+      {
+        "va": 268522421,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c4]"
+      },
+      {
+        "va": 268616729,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c4]"
+      }
+    ],
+    "KERNEL32.dll!InterlockedFlushSList": [
+      {
+        "va": 268465820,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268549610,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268549628,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268549732,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268549750,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268553431,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268553480,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268560010,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268560271,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268567216,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268581247,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268581555,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268584899,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268586152,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268586170,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268593992,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268594010,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268594423,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268595037,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268595055,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268595159,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268595177,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      },
+      {
+        "va": 268598878,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0cc]"
+      }
+    ],
+    "KERNEL32.dll!RtlUnwind": [
+      {
+        "va": 268466372,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d0]"
+      },
+      {
+        "va": 268612832,
+        "mnemonic": "jmp",
+        "op_str": "dword ptr [0x1002f0d0]"
+      }
+    ],
+    "KERNEL32.dll!SetLastError": [
+      {
+        "va": 268468516,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0a0]"
+      },
+      {
+        "va": 268487723,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0a0]"
+      },
+      {
+        "va": 268487735,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0a0]"
+      },
+      {
+        "va": 268487857,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0a0]"
+      },
+      {
+        "va": 268487866,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0a0]"
+      },
+      {
+        "va": 268581993,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0a0]"
+      },
+      {
+        "va": 268582147,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0a0]"
+      },
+      {
+        "va": 268582207,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0a0]"
+      },
+      {
+        "va": 268582264,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0a0]"
+      }
+    ],
+    "KERNEL32.dll!LoadLibraryExW": [
+      {
+        "va": 268469007,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d8]"
+      },
+      {
+        "va": 268469033,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d8]"
+      },
+      {
+        "va": 268491711,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d8]"
+      },
+      {
+        "va": 268491737,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d8]"
+      },
+      {
+        "va": 268531686,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d8]"
+      },
+      {
+        "va": 268580183,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d8]"
+      },
+      {
+        "va": 268581715,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d8]"
+      }
+    ],
+    "KERNEL32.dll!FreeLibrary": [
+      {
+        "va": 268469067,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d4]"
+      },
+      {
+        "va": 268469470,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d4]"
+      },
+      {
+        "va": 268479945,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d4]"
+      },
+      {
+        "va": 268483290,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d4]"
+      },
+      {
+        "va": 268491771,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d4]"
+      },
+      {
+        "va": 268492816,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d4]"
+      },
+      {
+        "va": 268531412,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0d4]"
+      }
+    ],
+    "KERNEL32.dll!TlsAlloc": [
+      {
+        "va": 268469132,
+        "mnemonic": "jmp",
+        "op_str": "dword ptr [0x1002f0ac]"
+      },
+      {
+        "va": 268491847,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0ac]"
+      },
+      {
+        "va": 268531091,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0ac]"
+      },
+      {
+        "va": 268602280,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0ac]"
+      }
+    ],
+    "KERNEL32.dll!TlsFree": [
+      {
+        "va": 268469187,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0b8]"
+      },
+      {
+        "va": 268491933,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0b8]"
+      },
+      {
+        "va": 268531156,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0b8]"
+      },
+      {
+        "va": 268602350,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0b8]"
+      }
+    ],
+    "KERNEL32.dll!TlsGetValue": [
+      {
+        "va": 268469245,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0b0]"
+      },
+      {
+        "va": 268492019,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0b0]"
+      },
+      {
+        "va": 268531170,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0b0]"
+      }
+    ],
+    "KERNEL32.dll!TlsSetValue": [
+      {
+        "va": 268469306,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0b4]"
+      },
+      {
+        "va": 268492108,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0b4]"
+      },
+      {
+        "va": 268531190,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0b4]"
+      }
+    ],
+    "KERNEL32.dll!ExitProcess": [
+      {
+        "va": 268479784,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0dc]"
+      }
+    ],
+    "KERNEL32.dll!GetModuleHandleExW": [
+      {
+        "va": 268479891,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0e0]"
+      },
+      {
+        "va": 268483445,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0e0]"
+      }
+    ],
+    "KERNEL32.dll!HeapAlloc": [
+      {
+        "va": 268482934,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0ec]"
+      },
+      {
+        "va": 268483825,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0ec]"
+      }
+    ],
+    "KERNEL32.dll!HeapFree": [
+      {
+        "va": 268482984,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0f0]"
+      }
+    ],
+    "KERNEL32.dll!ExitThread": [
+      {
+        "va": 268483154,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0f8]"
+      },
+      {
+        "va": 268483326,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0f8]"
+      }
+    ],
+    "KERNEL32.dll!FreeLibraryAndExitThread": [
+      {
+        "va": 268483388,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0fc]"
+      },
+      {
+        "va": 268531454,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0fc]"
+      }
+    ],
+    "KERNEL32.dll!CreateThread": [
+      {
+        "va": 268483541,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0f4]"
+      },
+      {
+        "va": 268530179,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0f4]"
+      }
+    ],
+    "KERNEL32.dll!MultiByteToWideChar": [
+      {
+        "va": 268485509,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0e8]"
+      },
+      {
+        "va": 268485563,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0e8]"
+      },
+      {
+        "va": 268499515,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0e8]"
+      },
+      {
+        "va": 268499649,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0e8]"
+      },
+      {
+        "va": 268508244,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0e8]"
+      },
+      {
+        "va": 268508381,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0e8]"
+      }
+    ],
+    "KERNEL32.dll!WideCharToMultiByte": [
+      {
+        "va": 268485848,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0bc]"
+      },
+      {
+        "va": 268497219,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0bc]"
+      },
+      {
+        "va": 268497257,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0bc]"
+      },
+      {
+        "va": 268499899,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0bc]"
+      },
+      {
+        "va": 268510135,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0bc]"
+      },
+      {
+        "va": 268511183,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0bc]"
+      }
+    ],
+    "KERNEL32.dll!GetStartupInfoW": [
+      {
+        "va": 268491023,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f064]"
+      }
+    ],
+    "KERNEL32.dll!GetFileType": [
+      {
+        "va": 268491128,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f108]"
+      },
+      {
+        "va": 268491287,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f108]"
+      }
+    ],
+    "KERNEL32.dll!GetStdHandle": [
+      {
+        "va": 268491269,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f104]"
+      }
+    ],
+    "KERNEL32.dll!LCMapStringW": [
+      {
+        "va": 268492342,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f10c]"
+      }
+    ],
+    "KERNEL32.dll!FindFirstFileExA": [
+      {
+        "va": 268494473,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f114]"
+      }
+    ],
+    "KERNEL32.dll!FindClose": [
+      {
+        "va": 268494512,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f110]"
+      }
+    ],
+    "KERNEL32.dll!FindNextFileA": [
+      {
+        "va": 268494619,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f118]"
+      }
+    ],
+    "KERNEL32.dll!GetOEMCP": [
+      {
+        "va": 268495330,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f120]"
+      }
+    ],
+    "KERNEL32.dll!GetACP": [
+      {
+        "va": 268495353,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f100]"
+      }
+    ],
+    "KERNEL32.dll!GetCPInfo": [
+      {
+        "va": 268495540,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f124]"
+      },
+      {
+        "va": 268496491,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f124]"
+      }
+    ],
+    "KERNEL32.dll!IsValidCodePage": [
+      {
+        "va": 268496472,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f11c]"
+      }
+    ],
+    "KERNEL32.dll!GetCommandLineA": [
+      {
+        "va": 268497095,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f128]"
+      }
+    ],
+    "KERNEL32.dll!GetCommandLineW": [
+      {
+        "va": 268497106,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f12c]"
+      }
+    ],
+    "KERNEL32.dll!GetEnvironmentStringsW": [
+      {
+        "va": 268497184,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f130]"
+      }
+    ],
+    "KERNEL32.dll!FreeEnvironmentStringsW": [
+      {
+        "va": 268497291,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f134]"
+      }
+    ],
+    "KERNEL32.dll!GetProcessHeap": [
+      {
+        "va": 268497426,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f138]"
+      }
+    ],
+    "KERNEL32.dll!GetStringTypeW": [
+      {
+        "va": 268508399,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f13c]"
+      }
+    ],
+    "KERNEL32.dll!SetStdHandle": [
+      {
+        "va": 268508945,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f140]"
+      }
+    ],
+    "KERNEL32.dll!FlushFileBuffers": [
+      {
+        "va": 268509651,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f144]"
+      }
+    ],
+    "KERNEL32.dll!GetConsoleCP": [
+      {
+        "va": 268509947,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f14c]"
+      }
+    ],
+    "KERNEL32.dll!WriteFile": [
+      {
+        "va": 268510166,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f148]"
+      },
+      {
+        "va": 268510223,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f148]"
+      },
+      {
+        "va": 268510698,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f148]"
+      },
+      {
+        "va": 268510936,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f148]"
+      },
+      {
+        "va": 268511229,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f148]"
+      },
+      {
+        "va": 268511910,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f148]"
+      }
+    ],
+    "KERNEL32.dll!GetConsoleMode": [
+      {
+        "va": 268510526,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f150]"
+      }
+    ],
+    "KERNEL32.dll!HeapSize": [
+      {
+        "va": 268514862,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f154]"
+      }
+    ],
+    "KERNEL32.dll!HeapReAlloc": [
+      {
+        "va": 268514963,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f158]"
+      }
+    ],
+    "KERNEL32.dll!SetFilePointerEx": [
+      {
+        "va": 268515293,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f15c]"
+      }
+    ],
+    "KERNEL32.dll!WriteConsoleW": [
+      {
+        "va": 268516918,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f160]"
+      }
+    ],
+    "KERNEL32.dll!DecodePointer": [
+      {
+        "va": 268519382,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f164]"
+      },
+      {
+        "va": 268615535,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f164]"
+      },
+      {
+        "va": 268616638,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f164]"
+      }
+    ],
+    "KERNEL32.dll!CreateTimerQueue": [
+      {
+        "va": 268524436,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f168]"
+      }
+    ],
+    "KERNEL32.dll!ChangeTimerQueueTimer": [
+      {
+        "va": 268530049,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f188]"
+      }
+    ],
+    "KERNEL32.dll!CreateTimerQueueTimer": [
+      {
+        "va": 268530211,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f184]"
+      }
+    ],
+    "KERNEL32.dll!DeleteTimerQueueTimer": [
+      {
+        "va": 268530235,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f18c]"
+      }
+    ],
+    "KERNEL32.dll!GetLogicalProcessorInformation": [
+      {
+        "va": 268530313,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f180]"
+      },
+      {
+        "va": 268530376,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f180]"
+      }
+    ],
+    "KERNEL32.dll!GetNumaHighestNodeNumber": [
+      {
+        "va": 268530630,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f190]"
+      }
+    ],
+    "KERNEL32.dll!GetProcessAffinityMask": [
+      {
+        "va": 268530754,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f194]"
+      },
+      {
+        "va": 268533423,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f194]"
+      }
+    ],
+    "KERNEL32.dll!GetThreadPriority": [
+      {
+        "va": 268530787,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f17c]"
+      }
+    ],
+    "KERNEL32.dll!RegisterWaitForSingleObject": [
+      {
+        "va": 268530844,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f19c]"
+      },
+      {
+        "va": 268549342,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f19c]"
+      }
+    ],
+    "KERNEL32.dll!SetThreadAffinityMask": [
+      {
+        "va": 268530961,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f198]"
+      }
+    ],
+    "KERNEL32.dll!SetThreadPriority": [
+      {
+        "va": 268530984,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f178]"
+      }
+    ],
+    "KERNEL32.dll!SignalObjectAndWait": [
+      {
+        "va": 268531057,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f170]"
+      }
+    ],
+    "KERNEL32.dll!SwitchToThread": [
+      {
+        "va": 268531079,
+        "mnemonic": "jmp",
+        "op_str": "dword ptr [0x1002f174]"
+      }
+    ],
+    "KERNEL32.dll!UnregisterWait": [
+      {
+        "va": 268531254,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1a0]"
+      }
+    ],
+    "KERNEL32.dll!SetEvent": [
+      {
+        "va": 268531323,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f16c]"
+      },
+      {
+        "va": 268545062,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f16c]"
+      },
+      {
+        "va": 268545602,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f16c]"
+      },
+      {
+        "va": 268545865,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f16c]"
+      },
+      {
+        "va": 268548081,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f16c]"
+      },
+      {
+        "va": 268552952,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f16c]"
+      },
+      {
+        "va": 268553579,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f16c]"
+      },
+      {
+        "va": 268577677,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f16c]"
+      },
+      {
+        "va": 268579122,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f16c]"
+      },
+      {
+        "va": 268601684,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f16c]"
+      },
+      {
+        "va": 268606747,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f16c]"
+      },
+      {
+        "va": 268606761,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f16c]"
+      }
+    ],
+    "KERNEL32.dll!GetThreadTimes": [
+      {
+        "va": 268531515,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1a4]"
+      }
+    ],
+    "KERNEL32.dll!GetModuleFileNameW": [
+      {
+        "va": 268531661,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0e4]"
+      }
+    ],
+    "KERNEL32.dll!VirtualAlloc": [
+      {
+        "va": 268532409,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1ac]"
+      }
+    ],
+    "KERNEL32.dll!VirtualFree": [
+      {
+        "va": 268532709,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1b0]"
+      }
+    ],
+    "KERNEL32.dll!VirtualProtect": [
+      {
+        "va": 268539776,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1b4]"
+      }
+    ],
+    "KERNEL32.dll!GetVersionExW": [
+      {
+        "va": 268546542,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1a8]"
+      }
+    ],
+    "KERNEL32.dll!UnregisterWaitEx": [
+      {
+        "va": 268553140,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c4]"
+      }
+    ],
+    "KERNEL32.dll!InterlockedPopEntrySList": [
+      {
+        "va": 268554734,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1bc]"
+      },
+      {
+        "va": 268554945,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1bc]"
+      },
+      {
+        "va": 268555458,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1bc]"
+      },
+      {
+        "va": 268555549,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1bc]"
+      },
+      {
+        "va": 268555628,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1bc]"
+      },
+      {
+        "va": 268557336,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1bc]"
+      },
+      {
+        "va": 268559637,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1bc]"
+      },
+      {
+        "va": 268559700,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1bc]"
+      },
+      {
+        "va": 268561481,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1bc]"
+      },
+      {
+        "va": 268565419,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1bc]"
+      },
+      {
+        "va": 268581413,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1bc]"
+      },
+      {
+        "va": 268586687,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1bc]"
+      },
+      {
+        "va": 268596965,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1bc]"
+      }
+    ],
+    "KERNEL32.dll!InterlockedPushEntrySList": [
+      {
+        "va": 268558023,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268558060,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268559414,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268559529,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268559581,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268559952,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268560046,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268560213,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268560307,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268560922,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268567166,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268567252,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268581130,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268581234,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268584849,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268584938,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268594373,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268594462,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268598828,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      },
+      {
+        "va": 268598914,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f0c8]"
+      }
+    ],
+    "KERNEL32.dll!QueryDepthSList": [
+      {
+        "va": 268559385,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268559554,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268559927,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268559959,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268560188,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268560220,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268560908,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268567141,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268567173,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268581108,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268581212,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268584822,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268584856,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268594346,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268594380,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268598803,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      },
+      {
+        "va": 268598835,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c0]"
+      }
+    ],
+    "KERNEL32.dll!ReleaseSemaphore": [
+      {
+        "va": 268559746,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1b8]"
+      }
+    ],
+    "KERNEL32.dll!LoadLibraryW": [
+      {
+        "va": 268581743,
+        "mnemonic": "call",
+        "op_str": "dword ptr [0x1002f1c8]"
+      }
+    ],
+    "KERNEL32.dll!IsProcessorFeaturePresent": [
+      {
+        "va": 268612826,
+        "mnemonic": "jmp",
+        "op_str": "dword ptr [0x1002f05c]"
+      }
+    ]
+  },
+  "call_context": {
+    "KERNEL32.dll!CreateFileW": [
+      {
+        "xref": {
+          "va": 268445436,
+          "mnemonic": "call",
+          "op_str": "dword ptr [0x1002f02c]"
+        },
+        "near_constants": [
+          {
+            "va": 268445332,
+            "text": "call 0x100052ee",
+            "values": [
+              268456686
+            ]
+          },
+          {
+            "va": 268445337,
+            "text": "add esp, 4",
+            "values": [
+              4
+            ]
+          },
+          {
+            "va": 268445342,
+            "text": "je 0x100026a9",
+            "values": [
+              268445353
+            ]
+          },
+          {
+            "va": 268445345,
+            "text": "call 0x10004991",
+            "values": [
+              268454289
+            ]
+          },
+          {
+            "va": 268445350,
+            "text": "add esp, 4",
+            "values": [
+              4
+            ]
+          },
+          {
+            "va": 268445353,
+            "text": "mov ecx, dword ptr [ebp - 0xc]",
+            "values": [
+              -12
+            ]
+          },
+          {
+            "va": 268445379,
+            "text": "and esp, 0xfffffff0",
+            "values": [
+              4294967280
+            ]
+          },
+          {
+            "va": 268445382,
+            "text": "sub esp, 0x58",
+            "values": [
+              88
+            ]
+          },
+          {
+            "va": 268445385,
+            "text": "mov eax, dword ptr [0x1003d008]",
+            "values": [
+              268685320
+            ]
+          },
+          {
+            "va": 268445392,
+            "text": "mov dword ptr [esp + 0x54], eax",
+            "values": [
+              84
+            ]
+          },
+          {
+            "va": 268445396,
+            "text": "cmp dword ptr [0x1003fd6c], 8",
+            "values": [
+              268696940,
+              8
+            ]
+          },
+          {
+            "va": 268445403,
+            "text": "mov eax, 0x1003fd58",
+            "values": [
+              268696920
+            ]
+          },
+          {
+            "va": 268445409,
+            "text": "cmovae eax, dword ptr [0x1003fd58]",
+            "values": [
+              268696920
+            ]
+          },
+          {
+            "va": 268445417,
+            "text": "push 0",
+            "values": [
+              0
+            ]
+          },
+          {
+            "va": 268445419,
+            "text": "push 0x40000000",
+            "values": [
+              1073741824
+            ]
+          },
+          {
+            "va": 268445424,
+            "text": "push 3",
+            "values": [
+              3
+            ]
+          },
+          {
+            "va": 268445426,
+            "text": "push 0",
+            "values": [
+              0
+            ]
+          },
+          {
+            "va": 268445428,
+            "text": "push 3",
+            "values": [
+              3
+            ]
+          },
+          {
+            "va": 268445430,
+            "text": "push 0xc0000000",
+            "values": [
+              3221225472
+            ]
+          },
+          {
+            "va": 268445436,
+            "text": "call dword ptr [0x1002f02c]",
+            "values": [
+              268628012
+            ]
+          }
+        ]
+      },
+      {
+        "xref": {
+          "va": 268520087,
+          "mnemonic": "call",
+          "op_str": "dword ptr [0x1002f02c]"
+        },
+        "near_constants": [
+          {
+            "va": 268519996,
+            "text": "fst qword ptr [ebp - 8]",
+            "values": [
+              -8
+            ]
+          },
+          {
+            "va": 268519999,
+            "text": "fld qword ptr [ebp + 8]",
+            "values": [
+              8
+            ]
+          },
+          {
+            "va": 268520002,
+            "text": "add esp, 8",
+            "values": [
+              8
+            ]
+          },
+          {
+            "va": 268520009,
+            "text": "test ah, 0x44",
+            "values": [
+              68
+            ]
+          },
+          {
+            "va": 268520012,
+            "text": "jp 0x10014a60",
+            "values": [
+              268520032
+            ]
+          },
+          {
+            "va": 268520020,
+            "text": "call 0x10014b34",
+            "values": [
+              268520244
+            ]
+          },
+          {
+            "va": 268520025,
+            "text": "fld qword ptr [ebp - 8]",
+            "values": [
+              -8
+            ]
+          },
+          {
+            "va": 268520030,
+            "text": "jmp 0x10014a7e",
+            "values": [
+              268520062
+            ]
+          },
+          {
+            "va": 268520032,
+            "text": "test bl, 0x20",
+            "values": [
+              32
+            ]
+          },
+          {
+            "va": 268520035,
+            "text": "jne 0x10014a4e",
+            "values": [
+              268520014
+            ]
+          },
+          {
+            "va": 268520038,
+            "text": "sub esp, 0x10",
+            "values": [
+              16
+            ]
+          },
+          {
+            "va": 268520043,
+            "text": "fstp qword ptr [esp + 8]",
+            "values": [
+              8
+            ]
+          },
+          {
+            "va": 268520050,
+            "text": "push 0xc",
+            "values": [
+              12
+            ]
+          },
+          {
+            "va": 268520052,
+            "text": "push 0x10",
+            "values": [
+              16
+            ]
+          },
+          {
+            "va": 268520054,
+            "text": "call 0x10014eb7",
+            "values": [
+              268521143
+            ]
+          },
+          {
+            "va": 268520059,
+            "text": "add esp, 0x1c",
+            "values": [
+              28
+            ]
+          },
+          {
+            "va": 268520072,
+            "text": "push 3",
+            "values": [
+              3
+            ]
+          },
+          {
+            "va": 268520075,
+            "text": "push 3",
+            "values": [
+              3
+            ]
+          },
+          {
+            "va": 268520077,
+            "text": "push 0x40000000",
+            "values": [
+              1073741824
+            ]
+          },
+          {
+            "va": 268520082,
+            "text": "push 0x10034c20",
+            "values": [
+              268651552
+            ]
+          },
+          {
+            "va": 268520087,
+            "text": "call dword ptr [0x1002f02c]",
+            "values": [
+              268628012
+            ]
+          }
+        ]
+      }
+    ],
+    "HID.DLL!HidD_SetOutputReport": [
+      {
+        "xref": {
+          "va": 268445757,
+          "mnemonic": "call",
+          "op_str": "dword ptr [0x1002f014]"
+        },
+        "near_constants": [
+          {
+            "va": 268445626,
+            "text": "ja 0x1000280f",
+            "values": [
+              268445711
+            ]
+          },
+          {
+            "va": 268445628,
+            "text": "mov eax, dword ptr [ecx - 0xc]",
+            "values": [
+              -12
+            ]
+          },
+          {
+            "va": 268445631,
+            "text": "mov dword ptr [ecx], 1",
+            "values": [
+              1
+            ]
+          },
+          {
+            "va": 268445637,
+            "text": "cmp eax, -1",
+            "values": [
+              -1
+            ]
+          },
+          {
+            "va": 268445640,
+            "text": "je 0x100027d1",
+            "values": [
+              268445649
+            ]
+          },
+          {
+            "va": 268445646,
+            "text": "mov dword ptr [ecx - 0xc], eax",
+            "values": [
+              -12
+            ]
+          },
+          {
+            "va": 268445649,
+            "text": "mov dl, byte ptr [ecx - 8]",
+            "values": [
+              -8
+            ]
+          },
+          {
+            "va": 268445657,
+            "text": "mov dword ptr [esp + 0x10], eax",
+            "values": [
+              16
+            ]
+          },
+          {
+            "va": 268445664,
+            "text": "mov edx, dword ptr [esp + 0x10]",
+            "values": [
+              16
+            ]
+          },
+          {
+            "va": 268445671,
+            "text": "movzx eax, byte ptr [esp + 0xc]",
+            "values": [
+              12
+            ]
+          },
+          {
+            "va": 268445676,
+            "text": "mov byte ptr [esp + 0xd], dl",
+            "values": [
+              13
+            ]
+          },
+          {
+            "va": 268445680,
+            "text": "mov dl, byte ptr [ecx - 7]",
+            "values": [
+              -7
+            ]
+          },
+          {
+            "va": 268445683,
+            "text": "cmp byte ptr [esp + 0xc], dl",
+            "values": [
+              12
+            ]
+          },
+          {
+            "va": 268445687,
+            "text": "mov dword ptr [esp + 0x10], eax",
+            "values": [
+              16
+            ]
+          },
+          {
+            "va": 268445694,
+            "text": "mov edx, dword ptr [esp + 0x10]",
+            "values": [
+              16
+            ]
+          },
+          {
+            "va": 268445701,
+            "text": "mov dh, byte ptr [esp + 0xd]",
+            "values": [
+              13
+            ]
+          },
+          {
+            "va": 268445707,
+            "text": "mov byte ptr [esp + 0xc], al",
+            "values": [
+              12
+            ]
+          },
+          {
+            "va": 268445711,
+            "text": "add ecx, 0x18",
+            "values": [
+              24
+            ]
+          },
+          {
+            "va": 268445714,
+            "text": "cmp ecx, 0x1003fd3c",
+            "values": [
+              268696892
+            ]
+          },
+          {
+            "va": 268445720,
+            "text": "jl 0x10002750",
+            "values": [
+              268445520
+            ]
+          },
+          {
+            "va": 268445726,
+            "text": "cmp dh, byte ptr [esp + 0xe]",
+            "values": [
+              14
+            ]
+          },
+          {
+            "va": 268445730,
+            "text": "jne 0x1000282a",
+            "values": [
+              268445738
+            ]
+          },
+          {
+            "va": 268445732,
+            "text": "cmp al, byte ptr [esp + 0xf]",
+            "values": [
+              15
+            ]
+          },
+          {
+            "va": 268445736,
+            "text": "je 0x100028a3",
+            "values": [
+              268445859
+            ]
+          },
+          {
+            "va": 268445740,
+            "text": "jne 0x10002845",
+            "values": [
+              268445765
+            ]
+          },
+          {
+            "va": 268445744,
+            "text": "jne 0x10002845",
+            "values": [
+              268445765
+            ]
+          },
+          {
+            "va": 268445746,
+            "text": "push 8",
+            "values": [
+              8
+            ]
+          },
+          {
+            "va": 268445748,
+            "text": "push 0x10036de0",
+            "values": [
+              268660192
+            ]
+          },
+          {
+            "va": 268445753,
+            "text": "push dword ptr [esp + 0x24]",
+            "values": [
+              36
+            ]
+          },
+          {
+            "va": 268445757,
+            "text": "call dword ptr [0x1002f014]",
+            "values": [
+              268627988
+            ]
+          }
+        ]
+      },
+      {
+        "xref": {
+          "va": 268445769,
+          "mnemonic": "mov",
+          "op_str": "edi, dword ptr [0x1002f014]"
+        },
+        "near_constants": [
+          {
+            "va": 268445637,
+            "text": "cmp eax, -1",
+            "values": [
+              -1
+            ]
+          },
+          {
+            "va": 268445640,
+            "text": "je 0x100027d1",
+            "values": [
+              268445649
+            ]
+          },
+          {
+            "va": 268445646,
+            "text": "mov dword ptr [ecx - 0xc], eax",
+            "values": [
+              -12
+            ]
+          },
+          {
+            "va": 268445649,
+            "text": "mov dl, byte ptr [ecx - 8]",
+            "values": [
+              -8
+            ]
+          },
+          {
+            "va": 268445657,
+            "text": "mov dword ptr [esp + 0x10], eax",
+            "values": [
+              16
+            ]
+          },
+          {
+            "va": 268445664,
+            "text": "mov edx, dword ptr [esp + 0x10]",
+            "values": [
+              16
+            ]
+          },
+          {
+            "va": 268445671,
+            "text": "movzx eax, byte ptr [esp + 0xc]",
+            "values": [
+              12
+            ]
+          },
+          {
+            "va": 268445676,
+            "text": "mov byte ptr [esp + 0xd], dl",
+            "values": [
+              13
+            ]
+          },
+          {
+            "va": 268445680,
+            "text": "mov dl, byte ptr [ecx - 7]",
+            "values": [
+              -7
+            ]
+          },
+          {
+            "va": 268445683,
+            "text": "cmp byte ptr [esp + 0xc], dl",
+            "values": [
+              12
+            ]
+          },
+          {
+            "va": 268445687,
+            "text": "mov dword ptr [esp + 0x10], eax",
+            "values": [
+              16
+            ]
+          },
+          {
+            "va": 268445694,
+            "text": "mov edx, dword ptr [esp + 0x10]",
+            "values": [
+              16
+            ]
+          },
+          {
+            "va": 268445701,
+            "text": "mov dh, byte ptr [esp + 0xd]",
+            "values": [
+              13
+            ]
+          },
+          {
+            "va": 268445707,
+            "text": "mov byte ptr [esp + 0xc], al",
+            "values": [
+              12
+            ]
+          },
+          {
+            "va": 268445711,
+            "text": "add ecx, 0x18",
+            "values": [
+              24
+            ]
+          },
+          {
+            "va": 268445714,
+            "text": "cmp ecx, 0x1003fd3c",
+            "values": [
+              268696892
+            ]
+          },
+          {
+            "va": 268445720,
+            "text": "jl 0x10002750",
+            "values": [
+              268445520
+            ]
+          },
+          {
+            "va": 268445726,
+            "text": "cmp dh, byte ptr [esp + 0xe]",
+            "values": [
+              14
+            ]
+          },
+          {
+            "va": 268445730,
+            "text": "jne 0x1000282a",
+            "values": [
+              268445738
+            ]
+          },
+          {
+            "va": 268445732,
+            "text": "cmp al, byte ptr [esp + 0xf]",
+            "values": [
+              15
+            ]
+          },
+          {
+            "va": 268445736,
+            "text": "je 0x100028a3",
+            "values": [
+              268445859
+            ]
+          },
+          {
+            "va": 268445740,
+            "text": "jne 0x10002845",
+            "values": [
+              268445765
+            ]
+          },
+          {
+            "va": 268445744,
+            "text": "jne 0x10002845",
+            "values": [
+              268445765
+            ]
+          },
+          {
+            "va": 268445746,
+            "text": "push 8",
+            "values": [
+              8
+            ]
+          },
+          {
+            "va": 268445748,
+            "text": "push 0x10036de0",
+            "values": [
+              268660192
+            ]
+          },
+          {
+            "va": 268445753,
+            "text": "push dword ptr [esp + 0x24]",
+            "values": [
+              36
+            ]
+          },
+          {
+            "va": 268445757,
+            "text": "call dword ptr [0x1002f014]",
+            "values": [
+              268627988
+            ]
+          },
+          {
+            "va": 268445763,
+            "text": "jmp 0x10002893",
+            "values": [
+              268445843
+            ]
+          },
+          {
+            "va": 268445765,
+            "text": "mov esi, dword ptr [esp + 0x1c]",
+            "values": [
+              28
+            ]
+          },
+          {
+            "va": 268445769,
+            "text": "mov edi, dword ptr [0x1002f014]",
+            "values": [
+              268627988
+            ]
+          }
+        ]
+      },
+      {
+        "xref": {
+          "va": 268446024,
+          "mnemonic": "call",
+          "op_str": "dword ptr [0x1002f014]"
+        },
+        "near_constants": [
+          {
+            "va": 268445896,
+            "text": "call 0x1002b900",
+            "values": [
+              268613888
+            ]
+          },
+          {
+            "va": 268445903,
+            "text": "push 0",
+            "values": [
+              0
+            ]
+          },
+          {
+            "va": 268445905,
+            "text": "add esi, 0x989680",
+            "values": [
+              10000000
+            ]
+          },
+          {
+            "va": 268445911,
+            "text": "push 0x3b9aca00",
+            "values": [
+              1000000000
+            ]
+          },
+          {
+            "va": 268445916,
+            "text": "adc edx, 0",
+            "values": [
+              0
+            ]
+          },
+          {
+            "va": 268445921,
+            "text": "call 0x1002d3c0",
+            "values": [
+              268620736
+            ]
+          },
+          {
+            "va": 268445926,
+            "text": "push 0",
+            "values": [
+              0
+            ]
+          },
+          {
+            "va": 268445928,
+            "text": "push 0x3b9aca00",
+            "values": [
+              1000000000
+            ]
+          },
+          {
+            "va": 268445935,
+            "text": "mov dword ptr [esp + 0x30], eax",
+            "values": [
+              48
+            ]
+          },
+          {
+            "va": 268445939,
+            "text": "mov dword ptr [esp + 0x34], edx",
+            "values": [
+              52
+            ]
+          },
+          {
+            "va": 268445943,
+            "text": "call 0x1002b900",
+            "values": [
+              268613888
+            ]
+          },
+          {
+            "va": 268445950,
+            "text": "lea eax, [esp + 0x30]",
+            "values": [
+              48
+            ]
+          },
+          {
+            "va": 268445954,
+            "text": "mov dword ptr [esp + 0x28], esi",
+            "values": [
+              40
+            ]
+          },
+          {
+            "va": 268445958,
+            "text": "movaps xmm0, xmmword ptr [esp + 0x20]",
+            "values": [
+              32
+            ]
+          },
+          {
+            "va": 268445964,
+            "text": "movaps xmmword ptr [esp + 0x34], xmm0",
+            "values": [
+              52
+            ]
+          },
+          {
+            "va": 268445969,
+            "text": "call 0x1000546f",
+            "values": [
+              268457071
+            ]
+          },
+          {
+            "va": 268445974,
+            "text": "add esp, 4",
+            "values": [
+              4
+            ]
+          },
+          {
+            "va": 268445977,
+            "text": "jmp 0x10002710",
+            "values": [
+              268445456
+            ]
+          },
+          {
+            "va": 268445982,
+            "text": "push 0x1003fd28",
+            "values": [
+              268696872
+            ]
+          },
+          {
+            "va": 268445987,
+            "text": "call 0x100052ee",
+            "values": [
+              268456686
+            ]
+          },
+          {
+            "va": 268445992,
+            "text": "add esp, 4",
+            "values": [
+              4
+            ]
+          },
+          {
+            "va": 268445997,
+            "text": "je 0x10002938",
+            "values": [
+              268446008
+            ]
+          },
+          {
+            "va": 268446000,
+            "text": "call 0x10004991",
+            "values": [
+              268454289
+            ]
+          },
+          {
+            "va": 268446005,
+            "text": "add esp, 4",
+            "values": [
+              4
+            ]
+          },
+          {
+            "va": 268446008,
+            "text": "mov esi, dword ptr [esp + 0x1c]",
+            "values": [
+              28
+            ]
+          },
+          {
+            "va": 268446014,
+            "text": "je 0x10002955",
+            "values": [
+              268446037
+            ]
+          },
+          {
+            "va": 268446016,
+            "text": "push 8",
+            "values": [
+              8
+            ]
+          },
+          {
+            "va": 268446018,
+            "text": "push 0x10036de0",
+            "values": [
+              268660192
+            ]
+          },
+          {
+            "va": 268446024,
+            "text": "call dword ptr [0x1002f014]",
+            "values": [
+              268627988
+            ]
+          }
+        ]
+      }
+    ],
+    "KERNEL32.dll!WriteFile": [
+      {
+        "xref": {
+          "va": 268510166,
+          "mnemonic": "call",
+          "op_str": "dword ptr [0x1002f148]"
+        },
+        "near_constants": [
+          {
+            "va": 268510065,
+            "text": "lea eax, [ebp - 0x18]",
+            "values": [
+              -24
+            ]
+          },
+          {
+            "va": 268510070,
+            "text": "call 0x1000c3eb",
+            "values": [
+              268485611
+            ]
+          },
+          {
+            "va": 268510075,
+            "text": "add esp, 0xc",
+            "values": [
+              12
+            ]
+          },
+          {
+            "va": 268510078,
+            "text": "cmp eax, -1",
+            "values": [
+              -1
+            ]
+          },
+          {
+            "va": 268510081,
+            "text": "je 0x10012459",
+            "values": [
+              268510297
+            ]
+          },
+          {
+            "va": 268510088,
+            "text": "jmp 0x100123a2",
+            "values": [
+              268510114
+            ]
+          },
+          {
+            "va": 268510090,
+            "text": "push 1",
+            "values": [
+              1
+            ]
+          },
+          {
+            "va": 268510093,
+            "text": "lea eax, [ebp - 0x18]",
+            "values": [
+              -24
+            ]
+          },
+          {
+            "va": 268510097,
+            "text": "call 0x1000c3eb",
+            "values": [
+              268485611
+            ]
+          },
+          {
+            "va": 268510102,
+            "text": "add esp, 0xc",
+            "values": [
+              12
+            ]
+          },
+          {
+            "va": 268510105,
+            "text": "cmp eax, -1",
+            "values": [
+              -1
+            ]
+          },
+          {
+            "va": 268510108,
+            "text": "je 0x10012459",
+            "values": [
+              268510297
+            ]
+          },
+          {
+            "va": 268510116,
+            "text": "lea eax, [ebp - 0x14]",
+            "values": [
+              -20
+            ]
+          },
+          {
+            "va": 268510121,
+            "text": "push 5",
+            "values": [
+              5
+            ]
+          },
+          {
+            "va": 268510124,
+            "text": "push 1",
+            "values": [
+              1
+            ]
+          },
+          {
+            "va": 268510126,
+            "text": "lea eax, [ebp - 0x18]",
+            "values": [
+              -24
+            ]
+          },
+          {
+            "va": 268510132,
+            "text": "push dword ptr [ebp - 0x38]",
+            "values": [
+              -56
+            ]
+          },
+          {
+            "va": 268510135,
+            "text": "call dword ptr [0x1002f0bc]",
+            "values": [
+              268628156
+            ]
+          },
+          {
+            "va": 268510141,
+            "text": "mov dword ptr [ebp - 0x34], eax",
+            "values": [
+              -52
+            ]
+          },
+          {
+            "va": 268510146,
+            "text": "je 0x10012459",
+            "values": [
+              268510297
+            ]
+          },
+          {
+            "va": 268510152,
+            "text": "push 0",
+            "values": [
+              0
+            ]
+          },
+          {
+            "va": 268510154,
+            "text": "lea ecx, [ebp - 0x20]",
+            "values": [
+              -32
+            ]
+          },
+          {
+            "va": 268510159,
+            "text": "lea eax, [ebp - 0x14]",
+            "values": [
+              -20
+            ]
+          },
+          {
+            "va": 268510163,
+            "text": "push dword ptr [ebp - 0x28]",
+            "values": [
+              -40
+            ]
+          },
+          {
+            "va": 268510166,
+            "text": "call dword ptr [0x1002f148]",
+            "values": [
+              268628296
+            ]
+          }
+        ]
+      },
+      {
+        "xref": {
+          "va": 268510223,
+          "mnemonic": "call",
+          "op_str": "dword ptr [0x1002f148]"
+        },
+        "near_constants": [
+          {
+            "va": 268510124,
+            "text": "push 1",
+            "values": [
+              1
+            ]
+          },
+          {
+            "va": 268510126,
+            "text": "lea eax, [ebp - 0x18]",
+            "values": [
+              -24
+            ]
+          },
+          {
+            "va": 268510132,
+            "text": "push dword ptr [ebp - 0x38]",
+            "values": [
+              -56
+            ]
+          },
+          {
+            "va": 268510135,
+            "text": "call dword ptr [0x1002f0bc]",
+            "values": [
+              268628156
+            ]
+          },
+          {
+            "va": 268510141,
+            "text": "mov dword ptr [ebp - 0x34], eax",
+            "values": [
+              -52
+            ]
+          },
+          {
+            "va": 268510146,
+            "text": "je 0x10012459",
+            "values": [
+              268510297
+            ]
+          },
+          {
+            "va": 268510152,
+            "text": "push 0",
+            "values": [
+              0
+            ]
+          },
+          {
+            "va": 268510154,
+            "text": "lea ecx, [ebp - 0x20]",
+            "values": [
+              -32
+            ]
+          },
+          {
+            "va": 268510159,
+            "text": "lea eax, [ebp - 0x14]",
+            "values": [
+              -20
+            ]
+          },
+          {
+            "va": 268510163,
+            "text": "push dword ptr [ebp - 0x28]",
+            "values": [
+              -40
+            ]
+          },
+          {
+            "va": 268510166,
+            "text": "call dword ptr [0x1002f148]",
+            "values": [
+              268628296
+            ]
+          },
+          {
+            "va": 268510174,
+            "text": "je 0x10012451",
+            "values": [
+              268510289
+            ]
+          },
+          {
+            "va": 268510176,
+            "text": "mov eax, dword ptr [esi + 8]",
+            "values": [
+              8
+            ]
+          },
+          {
+            "va": 268510179,
+            "text": "sub eax, dword ptr [ebp - 0x30]",
+            "values": [
+              -48
+            ]
+          },
+          {
+            "va": 268510184,
+            "text": "mov dword ptr [esi + 4], eax",
+            "values": [
+              4
+            ]
+          },
+          {
+            "va": 268510187,
+            "text": "mov eax, dword ptr [ebp - 0x34]",
+            "values": [
+              -52
+            ]
+          },
+          {
+            "va": 268510190,
+            "text": "cmp dword ptr [ebp - 0x20], eax",
+            "values": [
+              -32
+            ]
+          },
+          {
+            "va": 268510193,
+            "text": "jb 0x10012459",
+            "values": [
+              268510297
+            ]
+          },
+          {
+            "va": 268510195,
+            "text": "cmp byte ptr [ebp - 0x1b], 0xa",
+            "values": [
+              -27,
+              10
+            ]
+          },
+          {
+            "va": 268510199,
+            "text": "jne 0x10012425",
+            "values": [
+              268510245
+            ]
+          },
+          {
+            "va": 268510201,
+            "text": "push 0xd",
+            "values": [
+              13
+            ]
+          },
+          {
+            "va": 268510204,
+            "text": "push 0",
+            "values": [
+              0
+            ]
+          },
+          {
+            "va": 268510206,
+            "text": "mov word ptr [ebp - 0x1c], ax",
+            "values": [
+              -28
+            ]
+          },
+          {
+            "va": 268510210,
+            "text": "lea eax, [ebp - 0x20]",
+            "values": [
+              -32
+            ]
+          },
+          {
+            "va": 268510214,
+            "text": "push 1",
+            "values": [
+              1
+            ]
+          },
+          {
+            "va": 268510216,
+            "text": "lea eax, [ebp - 0x1c]",
+            "values": [
+              -28
+            ]
+          },
+          {
+            "va": 268510220,
+            "text": "push dword ptr [ebp - 0x28]",
+            "values": [
+              -40
+            ]
+          },
+          {
+            "va": 268510223,
+            "text": "call dword ptr [0x1002f148]",
+            "values": [
+              268628296
+            ]
+          }
+        ]
+      },
+      {
+        "xref": {
+          "va": 268510698,
+          "mnemonic": "call",
+          "op_str": "dword ptr [0x1002f148]"
+        },
+        "near_constants": [
+          {
+            "va": 268510583,
+            "text": "mov ebx, dword ptr [ebp + 0x10]",
+            "values": [
+              16
+            ]
+          },
+          {
+            "va": 268510586,
+            "text": "mov eax, dword ptr [eax*4 + 0x1003f798]",
+            "values": [
+              268695448
+            ]
+          },
+          {
+            "va": 268510594,
+            "text": "mov esi, dword ptr [ebp + 8]",
+            "values": [
+              8
+            ]
+          },
+          {
+            "va": 268510598,
+            "text": "mov ecx, dword ptr [eax + ecx + 0x18]",
+            "values": [
+              24
+            ]
+          },
+          {
+            "va": 268510602,
+            "text": "mov eax, dword ptr [ebp + 0x14]",
+            "values": [
+              20
+            ]
+          },
+          {
+            "va": 268510605,
+            "text": "and dword ptr [esi], 0",
+            "values": [
+              0
+            ]
+          },
+          {
+            "va": 268510610,
+            "text": "and dword ptr [esi + 4], 0",
+            "values": [
+              4,
+              0
+            ]
+          },
+          {
+            "va": 268510614,
+            "text": "and dword ptr [esi + 8], 0",
+            "values": [
+              8,
+              0
+            ]
+          },
+          {
+            "va": 268510618,
+            "text": "mov dword ptr [ebp - 0x1410], ecx",
+            "values": [
+              -5136
+            ]
+          },
+          {
+            "va": 268510624,
+            "text": "mov dword ptr [ebp - 0x1408], eax",
+            "values": [
+              -5128
+            ]
+          },
+          {
+            "va": 268510630,
+            "text": "jmp 0x1001260d",
+            "values": [
+              268510733
+            ]
+          },
+          {
+            "va": 268510632,
+            "text": "lea edi, [ebp - 0x1404]",
+            "values": [
+              -5124
+            ]
+          },
+          {
+            "va": 268510640,
+            "text": "jae 0x100125d0",
+            "values": [
+              268510672
+            ]
+          },
+          {
+            "va": 268510645,
+            "text": "cmp al, 0xa",
+            "values": [
+              10
+            ]
+          },
+          {
+            "va": 268510647,
+            "text": "jne 0x100125c0",
+            "values": [
+              268510656
+            ]
+          },
+          {
+            "va": 268510649,
+            "text": "inc dword ptr [esi + 8]",
+            "values": [
+              8
+            ]
+          },
+          {
+            "va": 268510652,
+            "text": "mov byte ptr [edi], 0xd",
+            "values": [
+              13
+            ]
+          },
+          {
+            "va": 268510658,
+            "text": "lea eax, [ebp - 5]",
+            "values": [
+              -5
+            ]
+          },
+          {
+            "va": 268510664,
+            "text": "mov eax, dword ptr [ebp - 0x1408]",
+            "values": [
+              -5128
+            ]
+          },
+          {
+            "va": 268510670,
+            "text": "jb 0x100125ae",
+            "values": [
+              268510638
+            ]
+          },
+          {
+            "va": 268510672,
+            "text": "lea eax, [ebp - 0x1404]",
+            "values": [
+              -5124
+            ]
+          },
+          {
+            "va": 268510680,
+            "text": "lea eax, [ebp - 0x140c]",
+            "values": [
+              -5132
+            ]
+          },
+          {
+            "va": 268510686,
+            "text": "push 0",
+            "values": [
+              0
+            ]
+          },
+          {
+            "va": 268510690,
+            "text": "lea eax, [ebp - 0x1404]",
+            "values": [
+              -5124
+            ]
+          },
+          {
+            "va": 268510698,
+            "text": "call dword ptr [0x1002f148]",
+            "values": [
+              268628296
+            ]
+          }
+        ]
+      },
+      {
+        "xref": {
+          "va": 268510936,
+          "mnemonic": "call",
+          "op_str": "dword ptr [0x1002f148]"
+        },
+        "near_constants": [
+          {
+            "va": 268510817,
+            "text": "mov esi, dword ptr [ebp + 8]",
+            "values": [
+              8
+            ]
+          },
+          {
+            "va": 268510821,
+            "text": "mov ecx, dword ptr [eax + ecx + 0x18]",
+            "values": [
+              24
+            ]
+          },
+          {
+            "va": 268510825,
+            "text": "mov eax, dword ptr [ebp + 0x14]",
+            "values": [
+              20
+            ]
+          },
+          {
+            "va": 268510830,
+            "text": "mov dword ptr [ebp - 0x1410], ecx",
+            "values": [
+              -5136
+            ]
+          },
+          {
+            "va": 268510838,
+            "text": "mov dword ptr [ebp - 0x1408], eax",
+            "values": [
+              -5128
+            ]
+          },
+          {
+            "va": 268510846,
+            "text": "mov dword ptr [esi + 4], edx",
+            "values": [
+              4
+            ]
+          },
+          {
+            "va": 268510849,
+            "text": "mov dword ptr [esi + 8], edx",
+            "values": [
+              8
+            ]
+          },
+          {
+            "va": 268510852,
+            "text": "jmp 0x100126fb",
+            "values": [
+              268510971
+            ]
+          },
+          {
+            "va": 268510854,
+            "text": "lea edi, [ebp - 0x1404]",
+            "values": [
+              -5124
+            ]
+          },
+          {
+            "va": 268510862,
+            "text": "jae 0x100126bb",
+            "values": [
+              268510907
+            ]
+          },
+          {
+            "va": 268510867,
+            "text": "add ebx, 2",
+            "values": [
+              2
+            ]
+          },
+          {
+            "va": 268510870,
+            "text": "cmp eax, 0xa",
+            "values": [
+              10
+            ]
+          },
+          {
+            "va": 268510873,
+            "text": "jne 0x100126a8",
+            "values": [
+              268510888
+            ]
+          },
+          {
+            "va": 268510875,
+            "text": "add dword ptr [esi + 8], 2",
+            "values": [
+              8,
+              2
+            ]
+          },
+          {
+            "va": 268510879,
+            "text": "push 0xd",
+            "values": [
+              13
+            ]
+          },
+          {
+            "va": 268510885,
+            "text": "add edi, 2",
+            "values": [
+              2
+            ]
+          },
+          {
+            "va": 268510891,
+            "text": "lea eax, [ebp - 6]",
+            "values": [
+              -6
+            ]
+          },
+          {
+            "va": 268510894,
+            "text": "add edi, 2",
+            "values": [
+              2
+            ]
+          },
+          {
+            "va": 268510899,
+            "text": "mov eax, dword ptr [ebp - 0x1408]",
+            "values": [
+              -5128
+            ]
+          },
+          {
+            "va": 268510905,
+            "text": "jb 0x1001268c",
+            "values": [
+              268510860
+            ]
+          },
+          {
+            "va": 268510907,
+            "text": "lea eax, [ebp - 0x1404]",
+            "values": [
+              -5124
+            ]
+          },
+          {
+            "va": 268510915,
+            "text": "lea eax, [ebp - 0x140c]",
+            "values": [
+              -5132
+            ]
+          },
+          {
+            "va": 268510921,
+            "text": "push 0",
+            "values": [
+              0
+            ]
+          },
+          {
+            "va": 268510924,
+            "text": "and edi, 0xfffffffe",
+            "values": [
+              4294967294
+            ]
+          },
+          {
+            "va": 268510927,
+            "text": "lea eax, [ebp - 0x1404]",
+            "values": [
+              -5124
+            ]
+          },
+          {
+            "va": 268510936,
+            "text": "call dword ptr [0x1002f148]",
+            "values": [
+              268628296
+            ]
+          }
+        ]
+      },
+      {
+        "xref": {
+          "va": 268511229,
+          "mnemonic": "call",
+          "op_str": "dword ptr [0x1002f148]"
+        },
+        "near_constants": [
+          {
+            "va": 268511119,
+            "text": "add edi, 2",
+            "values": [
+              2
+            ]
+          },
+          {
+            "va": 268511122,
+            "text": "cmp ecx, 0xa",
+            "values": [
+              10
+            ]
+          },
+          {
+            "va": 268511125,
+            "text": "jne 0x100127a0",
+            "values": [
+              268511136
+            ]
+          },
+          {
+            "va": 268511127,
+            "text": "push 0xd",
+            "values": [
+              13
+            ]
+          },
+          {
+            "va": 268511133,
+            "text": "add eax, 2",
+            "values": [
+              2
+            ]
+          },
+          {
+            "va": 268511139,
+            "text": "add eax, 2",
+            "values": [
+              2
+            ]
+          },
+          {
+            "va": 268511142,
+            "text": "lea ecx, [ebp - 8]",
+            "values": [
+              -8
+            ]
+          },
+          {
+            "va": 268511147,
+            "text": "jb 0x10012788",
+            "values": [
+              268511112
+            ]
+          },
+          {
+            "va": 268511151,
+            "text": "push 0xd55",
+            "values": [
+              3413
+            ]
+          },
+          {
+            "va": 268511156,
+            "text": "lea ecx, [ebp - 0x1408]",
+            "values": [
+              -5128
+            ]
+          },
+          {
+            "va": 268511163,
+            "text": "lea ecx, [ebp - 0x6b0]",
+            "values": [
+              -1712
+            ]
+          },
+          {
+            "va": 268511171,
+            "text": "sar eax, 1",
+            "values": [
+              1
+            ]
+          },
+          {
+            "va": 268511178,
+            "text": "push 0xfde9",
+            "values": [
+              65001
+            ]
+          },
+          {
+            "va": 268511183,
+            "text": "call dword ptr [0x1002f0bc]",
+            "values": [
+              268628156
+            ]
+          },
+          {
+            "va": 268511189,
+            "text": "mov esi, dword ptr [ebp + 8]",
+            "values": [
+              8
+            ]
+          },
+          {
+            "va": 268511192,
+            "text": "mov dword ptr [ebp - 0x1418], eax",
+            "values": [
+              -5144
+            ]
+          },
+          {
+            "va": 268511200,
+            "text": "je 0x1001282e",
+            "values": [
+              268511278
+            ]
+          },
+          {
+            "va": 268511202,
+            "text": "push 0",
+            "values": [
+              0
+            ]
+          },
+          {
+            "va": 268511204,
+            "text": "lea ecx, [ebp - 0x1410]",
+            "values": [
+              -5136
+            ]
+          },
+          {
+            "va": 268511214,
+            "text": "lea eax, [ebp - 0x1408]",
+            "values": [
+              -5128
+            ]
+          },
+          {
+            "va": 268511223,
+            "text": "push dword ptr [ebp - 0x1414]",
+            "values": [
+              -5140
+            ]
+          },
+          {
+            "va": 268511229,
+            "text": "call dword ptr [0x1002f148]",
+            "values": [
+              268628296
+            ]
+          }
+        ]
+      },
+      {
+        "xref": {
+          "va": 268511910,
+          "mnemonic": "call",
+          "op_str": "dword ptr [0x1002f148]"
+        },
+        "near_constants": [
+          {
+            "va": 268511813,
+            "text": "je 0x10012a8d",
+            "values": [
+              268511885
+            ]
+          },
+          {
+            "va": 268511818,
+            "text": "sub eax, 0",
+            "values": [
+              0
+            ]
+          },
+          {
+            "va": 268511821,
+            "text": "je 0x10012a7d",
+            "values": [
+              268511869
+            ]
+          },
+          {
+            "va": 268511823,
+            "text": "sub eax, 1",
+            "values": [
+              1
+            ]
+          },
+          {
+            "va": 268511826,
+            "text": "je 0x10012a6d",
+            "values": [
+              268511853
+            ]
+          },
+          {
+            "va": 268511828,
+            "text": "sub eax, 1",
+            "values": [
+              1
+            ]
+          },
+          {
+            "va": 268511831,
+            "text": "jne 0x10012af7",
+            "values": [
+              268511991
+            ]
+          },
+          {
+            "va": 268511837,
+            "text": "push dword ptr [ebp - 8]",
+            "values": [
+              -8
+            ]
+          },
+          {
+            "va": 268511840,
+            "text": "lea eax, [ebp - 0x14]",
+            "values": [
+              -20
+            ]
+          },
+          {
+            "va": 268511846,
+            "text": "call 0x1001262e",
+            "values": [
+              268510766
+            ]
+          },
+          {
+            "va": 268511851,
+            "text": "jmp 0x10012a2e",
+            "values": [
+              268511790
+            ]
+          },
+          {
+            "va": 268511853,
+            "text": "push dword ptr [ebp - 8]",
+            "values": [
+              -8
+            ]
+          },
+          {
+            "va": 268511856,
+            "text": "lea eax, [ebp - 0x14]",
+            "values": [
+              -20
+            ]
+          },
+          {
+            "va": 268511862,
+            "text": "call 0x1001271c",
+            "values": [
+              268511004
+            ]
+          },
+          {
+            "va": 268511867,
+            "text": "jmp 0x10012a2e",
+            "values": [
+              268511790
+            ]
+          },
+          {
+            "va": 268511869,
+            "text": "push dword ptr [ebp - 8]",
+            "values": [
+              -8
+            ]
+          },
+          {
+            "va": 268511872,
+            "text": "lea eax, [ebp - 0x14]",
+            "values": [
+              -20
+            ]
+          },
+          {
+            "va": 268511878,
+            "text": "call 0x1001254f",
+            "values": [
+              268510543
+            ]
+          },
+          {
+            "va": 268511883,
+            "text": "jmp 0x10012a2e",
+            "values": [
+              268511790
+            ]
+          },
+          {
+            "va": 268511885,
+            "text": "mov eax, dword ptr [ecx + eax + 0x18]",
+            "values": [
+              24
+            ]
+          },
+          {
+            "va": 268511892,
+            "text": "mov dword ptr [ebp - 0x14], ecx",
+            "values": [
+              -20
+            ]
+          },
+          {
+            "va": 268511895,
+            "text": "mov dword ptr [ebp - 0x10], ecx",
+            "values": [
+              -16
+            ]
+          },
+          {
+            "va": 268511898,
+            "text": "mov dword ptr [ebp - 0xc], ecx",
+            "values": [
+              -12
+            ]
+          },
+          {
+            "va": 268511901,
+            "text": "lea ecx, [ebp - 0x10]",
+            "values": [
+              -16
+            ]
+          },
+          {
+            "va": 268511905,
+            "text": "push dword ptr [ebp - 8]",
+            "values": [
+              -8
+            ]
+          },
+          {
+            "va": 268511910,
+            "text": "call dword ptr [0x1002f148]",
+            "values": [
+              268628296
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "interesting_strings": [
+    {
+      "offset": 214976,
+      "text": "DynamicProgressFeedback"
+    },
+    {
+      "offset": 218472,
+      "text": "%s.%s\\CLSID"
+    },
+    {
+      "offset": 218488,
+      "text": "CLSID\\%s"
+    },
+    {
+      "offset": 218528,
+      "text": "CLSID\\%s\\ProgId"
+    },
+    {
+      "offset": 218544,
+      "text": "CLSID\\%s\\InProcServer32"
+    },
+    {
+      "offset": 218592,
+      "text": "SYSTEM\\CurrentControlSet\\Control\\MediaProperties\\PrivateProperties\\Joystick\\OEM\\VID_0079&PID_0006\\OEMForceFeedback"
+    },
+    {
+      "offset": 218748,
+      "text": "CLSID"
+    },
+    {
+      "offset": 218768,
+      "text": "SYSTEM\\CurrentControlSet\\Control\\MediaProperties\\PrivateProperties\\Joystick\\OEM\\VID_0079&PID_0006\\Axes"
+    },
+    {
+      "offset": 218896,
+      "text": "%s\\Effects"
+    },
+    {
+      "offset": 218948,
+      "text": "%s\\Effects\\%s"
+    },
+    {
+      "offset": 218964,
+      "text": "Constant"
+    },
+    {
+      "offset": 219016,
+      "text": "Sine Wave"
+    },
+    {
+      "offset": 238393,
+      "text": "RegisterVibrationDriver"
+    },
+    {
+      "offset": 239178,
+      "text": "CreateFileW"
+    },
+    {
+      "offset": 239302,
+      "text": "HidD_SetOutputReport"
+    },
+    {
+      "offset": 240526,
+      "text": "WriteFile"
+    },
+    {
+      "offset": 249052,
+      "text": ".?AV?$InterfaceImpl@UIDirectInputEffectDriver@@@@"
+    },
+    {
+      "offset": 249112,
+      "text": ".?AUIDirectInputEffectDriver@@"
+    }
+  ],
+  "string_refs": [
+    {
+      "string_va": 268659168,
+      "offset": 218592,
+      "text": "SYSTEM\\CurrentControlSet\\Control\\MediaProperties\\PrivateProperties\\Joystick\\OEM\\VID_0079&PID_0006\\OEMForceFeedback",
+      "refs": [
+        {
+          "va": 268440982,
+          "text": "push 0x100369e0"
+        },
+        {
+          "va": 268441023,
+          "text": "push 0x100369e0"
+        },
+        {
+          "va": 268441270,
+          "text": "push 0x100369e0"
+        },
+        {
+          "va": 268441335,
+          "text": "push 0x100369e0"
+        },
+        {
+          "va": 268441467,
+          "text": "push 0x100369e0"
+        }
+      ]
+    },
+    {
+      "string_va": 268659344,
+      "offset": 218768,
+      "text": "SYSTEM\\CurrentControlSet\\Control\\MediaProperties\\PrivateProperties\\Joystick\\OEM\\VID_0079&PID_0006\\Axes",
+      "refs": [
+        {
+          "va": 268441058,
+          "text": "push 0x10036a90"
+        },
+        {
+          "va": 268441177,
+          "text": "push 0x10036a90"
+        }
+      ]
+    },
+    {
+      "string_va": 268659540,
+      "offset": 218964,
+      "text": "Constant",
+      "refs": [
+        {
+          "va": 268441366,
+          "text": "push 0x10036b54"
+        }
+      ]
+    },
+    {
+      "string_va": 268659592,
+      "offset": 219016,
+      "text": "Sine Wave",
+      "refs": [
+        {
+          "va": 268441498,
+          "text": "push 0x10036b88"
+        }
+      ]
+    },
+    {
+      "string_va": 268679878,
+      "offset": 239302,
+      "text": "HidD_SetOutputReport",
+      "refs": []
+    }
+  ]
+}

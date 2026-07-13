@@ -1,0 +1,81 @@
+# Build intermediates
+*.obj
+*.pdb
+*.exp
+*.lib
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.o
+*.a
+*.ncb
+*.suo
+*.user
+*.aps
+*.sbr
+*.bsc
+*.res
+*.pch
+*.tmp
+*.log
+*.tlog
+*.lastbuildstate
+
+# Compiler/linker junk at repo root from ad-hoc tests
+/caps_only.obj
+/cocreate*.obj
+/com_ff*.obj
+/di32_ff.obj
+/DiFfbTest.obj
+/ff_*.obj
+/hello_di.obj
+/load_ff.obj
+/sizes.obj
+/x360_sim.obj
+/ffb_validate.obj
+/effect_driver.obj
+/effect_map.obj
+/ffb_log.obj
+/hid_rumble.obj
+
+# Validation build tree
+/validation/obj/
+/validation/vc140.pdb
+/validation/bin/
+/validation/*.obj
+/validation/*.pdb
+
+# Vendor media (large; not required to rebuild FFB from sources)
+/Driver/
+/Simplicheck/
+/Setup.exe
+/setup.rpt
+/setup.inf
+
+# MSI patch work intermediates
+/analysis/msi_cab/
+/analysis/msi_extract/
+/analysis/is_extract/
+/analysis/root_setup/
+/analysis/msi_dump.txt
+
+# Dist copies of vendor EXEs (keep patched Setup + FFB MSI)
+/dist/SPEED-LINK-SL-6535-BK_Driver_V1.0_FFB-Patched/Driver/
+/dist/SPEED-LINK-SL-6535-BK_Driver_V1.0_FFB-Patched/Simplicheck/
+/dist/SPEED-LINK-SL-6535-BK_Driver_V1.0_FFB-Patched/Setup.original.exe
+
+# Optional: local machine noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vs/
+.vscode/
+*.user
+
+# Scratch test logs
+bin/validate_*.txt
+bin/verr*.txt
+bin/vout*.txt
+
